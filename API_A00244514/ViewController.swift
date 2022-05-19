@@ -11,9 +11,30 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+ 
     }
 
 
+    @IBAction func showDisneyData(_ sender: Any) {
+        DisneyAPI_Helper.fetchData { printString in
+           print(printString)
+    }
+    }
+    
+    
+    @IBAction func showPotterData(_ sender: Any) {
+        PotterAPI_Helper.fetchData { printString in
+           print(printString)
+    }
+    }
+    
+    
+    @IBAction func showPokeData(_ sender: Any) {
+       PokeAPI_Helper.fetchData { printString in
+           print(printString)
+    }
+    }
+    
 }
 
+    

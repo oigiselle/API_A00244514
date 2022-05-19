@@ -16,6 +16,9 @@
 		27DBAD202835DB6D00CDFE37 /* API_A00244514Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DBAD1F2835DB6D00CDFE37 /* API_A00244514Tests.swift */; };
 		27DBAD2A2835DB6D00CDFE37 /* API_A00244514UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DBAD292835DB6D00CDFE37 /* API_A00244514UITests.swift */; };
 		27DBAD2C2835DB6D00CDFE37 /* API_A00244514UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DBAD2B2835DB6D00CDFE37 /* API_A00244514UITestsLaunchTests.swift */; };
+		27DBAD392835DDF500CDFE37 /* PotterAPI_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DBAD382835DDF500CDFE37 /* PotterAPI_Helper.swift */; };
+		27DBAD3B2835DE0C00CDFE37 /* DisneyAPI_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DBAD3A2835DE0C00CDFE37 /* DisneyAPI_Helper.swift */; };
+		27DBAD3D2835DE1A00CDFE37 /* PokeAPI_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DBAD3C2835DE1A00CDFE37 /* PokeAPI_Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		27DBAD252835DB6D00CDFE37 /* API_A00244514UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = API_A00244514UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DBAD292835DB6D00CDFE37 /* API_A00244514UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_A00244514UITests.swift; sourceTree = "<group>"; };
 		27DBAD2B2835DB6D00CDFE37 /* API_A00244514UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_A00244514UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		27DBAD382835DDF500CDFE37 /* PotterAPI_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotterAPI_Helper.swift; sourceTree = "<group>"; };
+		27DBAD3A2835DE0C00CDFE37 /* DisneyAPI_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyAPI_Helper.swift; sourceTree = "<group>"; };
+		27DBAD3C2835DE1A00CDFE37 /* PokeAPI_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeAPI_Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				27DBAD082835DB6B00CDFE37 /* AppDelegate.swift */,
 				27DBAD0A2835DB6B00CDFE37 /* SceneDelegate.swift */,
 				27DBAD0C2835DB6B00CDFE37 /* ViewController.swift */,
+				27DBAD382835DDF500CDFE37 /* PotterAPI_Helper.swift */,
+				27DBAD3A2835DE0C00CDFE37 /* DisneyAPI_Helper.swift */,
+				27DBAD3C2835DE1A00CDFE37 /* PokeAPI_Helper.swift */,
 				27DBAD0E2835DB6B00CDFE37 /* Main.storyboard */,
 				27DBAD112835DB6D00CDFE37 /* Assets.xcassets */,
 				27DBAD132835DB6D00CDFE37 /* LaunchScreen.storyboard */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27DBAD392835DDF500CDFE37 /* PotterAPI_Helper.swift in Sources */,
 				27DBAD0D2835DB6B00CDFE37 /* ViewController.swift in Sources */,
+				27DBAD3B2835DE0C00CDFE37 /* DisneyAPI_Helper.swift in Sources */,
 				27DBAD092835DB6B00CDFE37 /* AppDelegate.swift in Sources */,
 				27DBAD0B2835DB6B00CDFE37 /* SceneDelegate.swift in Sources */,
+				27DBAD3D2835DE1A00CDFE37 /* PokeAPI_Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
